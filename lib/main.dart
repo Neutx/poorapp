@@ -10,12 +10,8 @@ void main() {
           backgroundColor: Colors.amberAccent,
           title: Center(child: Text('Gareebi App')),
         ),
-        body: Center(child:
-        CachedNetworkImage(
-          //key: UniqueKey(),
-          imageUrl: 'https://assets.weforum.org/article/image/PPYJxokc65xLG-OFdoKeAdByLEZS9GQqDvAmyvW1oS4.jpg',
-
-        ),
+        body: Center(
+          child:CachedNetworkImage(imageUrl: 'https://assets.weforum.org/article/image/PPYJxokc65xLG-OFdoKeAdByLEZS9GQqDvAmyvW1oS4.jpg'),
         ),
       ),
     ),
